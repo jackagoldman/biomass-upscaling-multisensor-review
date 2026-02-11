@@ -19,7 +19,7 @@ check_scopus_api_key <- function() {
   }
 }
 
-#' TODO: add function to search scopus and return dataframe of results
+#' Search scopus and return dataframe of results
 #'
 #' @param query
 #' @param ...
@@ -36,7 +36,7 @@ search_scopus <- function(query, count = 25, start = 0) {
 }
 
 
-#' Title
+#' Get abstract text from Scopus using EID
 #'
 #' @param eid
 #'
@@ -49,7 +49,7 @@ get_scopus_abstract <- function(eid) {
   return(res$abstract)
 }
 
-#' Title
+#' Wrapper to process abstracts for a dataframe of Scopus results
 #'
 #' @param df
 #'
