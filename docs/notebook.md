@@ -21,7 +21,7 @@ O (Outcome)
 ### Search Engines:
 - scopus (Elsevier)
 - Pubmed
-- Google Scholar
+- Google Scholar ( for google scholar, only use 200 to 300 articles, first 20-30 pages as the quality of applicability of results decrease past these numbers with increasing grey literature (Haddaway et al 2015))
 
 ### Search Query:
 "((\"Airborne LiDAR\" OR \"UAV LiDAR\" OR \"drone LiDAR\") AND  (\"forest biomass\" OR \"aboveground biomass\" OR \"AGB\" OR \"biomass\") AND  (\"satellite\" OR \"Sentinel\" OR \"Landsat\" OR \"RADAR\" OR \"SAR\") AND   (\"scal*\" OR \"upscal*\" OR \"extend*\" OR \"predict*\") AND  (\"boreal\" OR \"temperate\" OR \"coniferous\"))"

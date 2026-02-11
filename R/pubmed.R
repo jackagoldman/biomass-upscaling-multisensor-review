@@ -1,3 +1,5 @@
+box::use(./helpers)
+
 #' Title
 #'
 #' @param query
@@ -6,11 +8,11 @@
 #' @returns
 #'
 #' @export
-#' @examples test <- pubmed_search(query = config::get("query"), retmax = 1000)
+#' @examples test <- pubmed_search(config::get("query"), retmax = 1000)
 pubmed_search <- function(query, retmax = 1000){
   # remove TITLE-ABS-KEY from query if present
   if (grepl("TITLE-ABS-KEY", query)) {
-    query <- fix_query(query)
+    query <- helpers$fix_query(query, search = "pubmed")
   }
   
   # search pubmed
