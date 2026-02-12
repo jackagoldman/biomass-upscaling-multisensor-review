@@ -11,7 +11,6 @@ check_scopus_api_key <- function() {
     print("Scopus API key is set.")
   } else {
     print("Setting Scopus API key...")
-    scopus_api_key <- config::get("scopus-api-key")
     rscopus::set_api_key(scopus_api_key)
     if (isTRUE(rscopus::is_elsevier_authorized())) {
       print("Scopus API key is now set.")

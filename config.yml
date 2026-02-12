@@ -1,0 +1,11 @@
+default:
+  query: TITLE-ABS-KEY("Airborne LiDAR" OR "UAV LiDAR" OR "drone LiDAR") AND  TITLE-ABS-KEY("forest biomass" OR "aboveground biomass" OR "AGB" OR "biomass") AND  TITLE-ABS-KEY("satellite" OR "Sentinel" OR "Landsat" OR "RADAR" OR "SAR") AND   TITLE-ABS-KEY("scal*" OR "upscal*" OR "extend*" OR "predict*") AND  TITLE-ABS-KEY("boreal" OR "temperate" OR "coniferous") 
+  subject-areas: ("AGRI", "ENVI, "EART")
+  proj_dir: !expr getwd()
+  r-folder-path: !expr file.path(getwd(), "R"  )
+
+
+
+
+
+
