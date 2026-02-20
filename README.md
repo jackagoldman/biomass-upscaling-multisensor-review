@@ -19,7 +19,7 @@ This repository presents an automated literature review workflow and an extended
 - see `?config` for details
 
 4. Run `lit_search` from `R/lit_search.R`
-- recommend running for .qmd file for reproducibility
+- recommend running in .qmd file for reproducibility
 
 5. Make sure to document steps in the `notebook.md` outline
 
